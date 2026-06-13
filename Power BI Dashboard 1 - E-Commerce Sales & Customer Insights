@@ -22,7 +22,9 @@ Created custom columns
 Calculated Sales column
 Data Model
 
-![Power Query Cleaning](Power_Query_Cleaning.png)
+
+![Power Query Cleaning](04_Power_Query_Cleaning.png)
+
 
 Relationships:
 
@@ -31,7 +33,7 @@ Customers → Orders ← Products
              Date
 # Dashboard Overview
 
-![Data Model](Data_Model.png)
+![Data Model](02_Data_Model.png)
 
 DAX Measures
 Total Sales
@@ -44,7 +46,7 @@ Profit
 Brand Wise Profit %
 Category Wise Sales %
 
-![DAX Measures](DAX_Measures.png)
+![DAX Measures](03_DAX_Measures.png)
 
 
 
@@ -59,7 +61,7 @@ Customer Segmentation
 Top Products Analysis
 State Wise Sales Map
 Interactive Slicers
-![Dashboard Overview](Dashboard_Overview.png)
+![Dashboard Overview](01_Dashboard_Overview.png)
 
 
 Tools Used
