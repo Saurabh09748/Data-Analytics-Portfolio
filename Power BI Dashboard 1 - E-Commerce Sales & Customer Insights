@@ -1,0 +1,119 @@
+Project Overview
+
+This project focuses on analyzing e-commerce sales performance using Power BI. The dashboard provides actionable insights into sales trends, customer behavior, product performance, and regional sales distribution through interactive visualizations and key performance indicators (KPIs).
+
+Dataset
+
+The project uses three datasets:
+
+Orders
+OrderID
+CustomerID
+ProductID
+Order Date
+Quantity
+Unit Price
+
+Customers
+CustomerID
+CustomerName
+City
+Gender
+
+Products
+ProductID
+ProductName
+Brand
+Category
+
+Dataset Size
+Orders: ~2,200 Records
+Customers: 300 Records
+Products: 100 Records
+Data Cleaning & Transformation
+
+Performed using Power Query:
+
+Removed unnecessary columns
+Corrected data types
+Handled missing values
+Merged lookup tables
+Created custom columns
+Renamed and reordered columns
+Created Sales calculation column
+Performed data validation checks
+Standardized data formats
+
+Data Model
+Star Schema
+Customers
+     |
+     |
+Orders ----- Products
+     |
+     |
+   Date
+Relationships
+Customers (1:M) Orders
+Products (1:M) Orders
+Date (1:M) Orders
+
+DAX Measures Created
+Total Sales
+Total Orders
+Total Customers
+Average Order Value (AOV)
+Customer Sales
+Customer Segment
+Total Profit
+Brand Wise Profit %
+Category Wise Sales %
+
+Key Performance Indicators (KPIs)
+Total Sales
+Total Orders
+Total Customers
+Average Order Value
+Total Profit
+
+Dashboard Features
+Sales Analysis
+Monthly Sales Trend
+Category Wise Sales Analysis
+Revenue Performance Tracking
+
+Product Analysis
+Top 4 Best-Selling Products
+Brand Performance Analysis
+
+Customer Analysis
+Customer Segmentation
+Customer Sales Distribution
+
+Geographic Analysis
+Regional Sales Distribution
+City/State Wise Sales Performance
+
+nteractive Filters
+Month
+Brand
+Category
+City
+
+Key Insights
+Electronics category generated the highest revenue.
+High-value customers contributed a significant share of total sales.
+A small group of products accounted for a large percentage of overall revenue.
+Sales performance varied across regions and months.
+Interactive filters enable detailed business analysis and decision-making.
+
+Tools & Technologies Used
+Microsoft Power BI
+Power Query
+DAX
+Data Modeling
+Data Cleaning & Transformation
+
+
+
+
