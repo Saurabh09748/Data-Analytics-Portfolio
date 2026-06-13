@@ -1,0 +1,57 @@
+Power BI Dashboard 1 - E-Commerce Sales & Customer Insights
+Project Overview
+
+This project analyzes e-commerce sales performance using Power BI. The dashboard provides insights into sales trends, customer behavior, product performance, and regional sales distribution.
+
+Dataset
+
+Tables Used:
+
+Orders (~2200 records)
+Customers (300 records)
+Products (100 records)
+Data Cleaning
+
+Performed using Power Query:
+
+Fixed data types
+Removed unnecessary columns
+Replaced missing values
+Merged lookup tables
+Created custom columns
+Calculated Sales column
+Data Model
+
+Relationships:
+
+Customers → Orders ← Products
+              ↑
+             Date
+DAX Measures
+Total Sales
+Total Orders
+Total Customers
+Avg Order Value
+Customer Sales
+Customer Segment
+Profit
+Brand Wise Profit %
+Category Wise Sales %
+
+Dashboard Features
+Total Sales KPI
+Total Orders KPI
+Total Customers KPI
+Average Order Value KPI
+Monthly Sales Trend
+Category Wise Sales
+Customer Segmentation
+Top Products Analysis
+State Wise Sales Map
+Interactive Slicers
+
+
+Tools Used
+Power BI
+Power Query
+DAX
