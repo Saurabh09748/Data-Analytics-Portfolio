@@ -98,7 +98,7 @@ Examples
 
 # Dashboard with Filters Applied
 
-![Filtered Dashboard](Dashboard_Filtered.png)
+![Filtered Dashboard](Dashboard_with_Filters_Applied.png)
 
 ---
 # Data Model
@@ -109,7 +109,7 @@ Examples
 
 # Power Query Cleaning
 
-![Power Query](Power_Query.png)
+![Power Query](Power_Query_Applied_Step_Order_Table.png)
 
 ---
 
